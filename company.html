@@ -1,0 +1,278 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Company Website</title>
+        <link rel="stylesheet" href="companystyles.css">
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Digital Blueprint</a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <section id="home">
+            <h1>Welcome to Digital Blueprint Web Developer Limited</h1>
+            <p class="header-description">
+                Whether you're looking for a sleek e-commerce platform,
+                a dynamic corporate site, or a robust content management system,
+                Digital Blueprint Web Developer Limited delivers expert
+                craftsmanship
+                and strategic insights to bring your digital vision to life.
+            </p>
+            <button class="cta-button">
+                Learn More
+            </button>
+        </section>
+        <div id="about">
+            <div class="about-title">
+                <h2>
+                    ABOUT US
+
+                    <button onclick="ranNum()">Check answer</button>
+                </h2>
+                <div class="About-content">
+                    <div class="image-container">
+                        <img class="image" src="images/company image.jpg.jpg"
+                            alt="About us">
+                    </div>
+                    <div class="about-desc">
+                        <h2>title</h2>
+                        <p>At Digital Blueprint Web Development Limited,
+                            we are passionate about crafting innovative and
+                            dynamic
+                            digital
+                            solutions that empower businesses to thrive in the
+                            online landscape. Established in [Year], our team of
+                            dedicated
+                            professionals combines creativity, technical
+                            expertise,
+                            and a deep understanding of market trends to deliver
+                            exceptional
+                            web development services tailored to your unique
+                            needs.
+                        </p>
+                    </div>
+                </div>
+                <h2>
+                    OUR MISSION
+                </h2>
+                <p>
+                    Our mission is to provide high-quality web development
+                    services
+                    that drive results and foster growth. We believe that a
+                    strong
+                    online presence is essential for any business,
+                    and we are committed to helping our clients achieve
+                    their digital goals through customized solutions and
+                    cutting-edge technology.
+                </p>
+
+                <!--services start here-->
+                <h2 id="services">
+                    SERVICES
+                </h2>
+                <div id="services-container">
+                    <div class="service-1">
+                        <p>
+                            We offer a comprehensive range of web
+                            development services, including:
+                        </p>
+                        <ul>
+                            <li>
+                                <strong>Custom Website Development:</strong> We
+                                build responsive,
+                                user-friendly websites that reflect your brand
+                                identity and
+                                engage your audience.
+                            </li>
+                            <li>
+                                <strong>E-commerce Solutions:</strong> Our team
+                                creates robust online stores
+                                with seamless payment integration to enhance
+                                your customers’
+                                shopping experience.
+                            </li>
+                            <li>
+                                <strong>Content Management Systems
+                                    (CMS):</strong> We develop easy-to-manage
+                                websites using popular CMS platforms, allowing
+                                you to take
+                                control of your content.
+                            </li>
+                            <li>
+                                <strong>Web Application Development:</strong>
+                                From concept to launch,
+                                we design and develop web applications that
+                                streamline your
+                                business operations.
+                            </li>
+                            <li>
+                                <strong>UI/UX Design:</strong> Our designers
+                                focus on creating intuitive
+                                interfaces that provide an exceptional user
+                                experience across
+                                all devices.
+                            </li>
+                        </ul>
+                        <h2>
+                            Our Approach
+                        </h2>
+                        <p>
+                            We believe that collaboration is key to success. Our
+                            process
+                            begins with understanding your vision and goals.
+                            We work closely with you throughout the project
+                            lifecycle,
+                            ensuring that your feedback is incorporated at every
+                            stage.
+                            Our agile development methodology allows us to adapt
+                            quickly to
+                            changes and deliver results efficiently.
+                        </p>
+                        <h2>
+                            Our Team
+                        </h2>
+                        <p>
+                            Our talented team consists of skilled developers,
+                            creative designers, and strategic thinkers who are
+                            passionate
+                            about technology and innovation. With diverse
+                            backgrounds and
+                            expertise in various programming languages and
+                            frameworks,
+                            we bring a wealth of knowledge to every project.
+                        </p>
+                        <h2>
+                            Why Choose Us?
+                        </h2>
+                        <ul>
+                            <li>
+                                <strong>Client-Centric Focus:</strong> Your
+                                success is our top priority.
+                                We take the time to understand your needs and
+                                provide
+                                personalized solutions that deliver results.
+                            </li>
+                            <li>
+                                <strong>Quality Assurance:</strong> We are
+                                committed to maintaining the highest
+                                standards of quality in every project we
+                                undertake,
+                                ensuring that your website is not only
+                                functional but also
+                                visually appealing.
+                            </li>
+                            <li>
+                                <strong>Ongoing Support:</strong> Our
+                                relationship doesn’t end at launch.
+                                We offer ongoing support and maintenance
+                                services to ensure
+                                your website remains up-to-date and performs
+                                optimally.
+                            </li>
+                        </ul>
+
+                        <h2>
+                            Contact us
+                        </h2>
+                        <p>
+                            Ready to take your online presence to the next
+                            level? Let’s work
+                            together to create a website that not only meets
+                            your
+                            expectations but exceeds them. Contact us today at
+                            Digital Blueprint@webdevelopers.com
+                            or fill out our contact form to get started!
+                        </p>
+
+                        <div class="form-container">
+                            <h2>
+                                Contact Form
+                            </h2>
+                            <p>
+                                Lets start a conversation
+                            </p>
+                            <form>
+                                <label for="name">Name</label>
+                                <input type="text" id="name"
+                                    name="name" value="" onchange="myname(this.value)" placeholder="name"><br><br>
+                                <label for="email">
+                                    Email
+                                </label>
+                                <input type="email" id="email"
+                                    name="email" value="" onchange="myemail(this.value)">
+                                    <br><br>
+
+                                <label for="message">Message:<br><br>
+                                    <textarea id="message" name="message" value="" onchange="mymessage(this.value)"
+                                        required></textarea><br><br>
+
+                                    <button type="submit"
+                                        onclick="formSubmit()">
+                                        Send
+                                    </button>
+
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-container">
+                        <footer class="footer">
+                            <p class="footer-p1">
+                                Contact us at : Digital Blueprint@webdevelopers.com
+                            </p>
+                            <p class="footer-p2">
+                               Copyright &copy;2024 Digital Blueprint Web Development Limited
+                            </p>
+                        </footer>
+                    </div>
+                    
+                </div>
+
+            </div>
+
+            <script>
+                function formSubmit(){
+                   const password=123456;
+                   formPassword(password);
+                };
+
+                function formPassword(password){
+
+                   if(password==123456){
+                    alert("Logged in successfully");
+                   }
+                   alert("wrong password! please try again!");
+                };
+
+                function myname(value) {
+  alert("The input value has changed. The new name is: " + value);
+}
+
+function myemail(value) {
+  alert("The input value has changed. my new email is: " + value);
+}
+
+
+function mymessage(value) {
+  alert("The input value has changed. my new message is: " + value);
+}
+
+function ranNum() {
+    let num;
+   num= Math.floor(Math.random()*100);
+    alert("the random number is:"+num);
+
+}
+
+            </script>
+        </body>
